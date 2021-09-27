@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-left > img {
+  width: 100px;
+  height: 35px;
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+section {
+  background-color: rgb(233, 232, 232);
+}
+.header-right {
+  text-align: end;
+  padding: 0 7px;
+  cursor: pointer; /* mouse tagin uzerine gelince degistirir */
+}
